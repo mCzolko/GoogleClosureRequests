@@ -13,7 +13,7 @@ class mczolko.net.RequestManager
 		@return {goog.net.XhrManager.Request|null}
 	###
 	send: (request) ->
-		response = new liquidy.net.Response @
+		response = new mczolko.net.Response @
 
 		callback = (e) ->
 			response.setResponse e
